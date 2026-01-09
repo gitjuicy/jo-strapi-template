@@ -21,6 +21,12 @@
         "videos",
         "audios"
       ]
+    },
+    "noIndex": {
+      "type": "boolean"
+    },
+    "noFollow": {
+      "type": "boolean"
     }
   },
   "config": {}

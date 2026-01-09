@@ -47,6 +47,8 @@ export interface UtilitySeo extends Struct.ComponentSchema {
   attributes: {
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     metaDescription: Schema.Attribute.String;
+    noFollow: Schema.Attribute.Boolean;
+    noIndex: Schema.Attribute.Boolean;
     pageTitle: Schema.Attribute.String;
   };
 }
